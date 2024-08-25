@@ -1,0 +1,126 @@
+/* Basic Reset */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Light Mode */
+body.light-mode {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header.light-mode {
+    background: #333;
+    color: #fff;
+}
+
+header.light-mode a {
+    color: #fff;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+}
+
+header.dark-mode {
+    background: #222;
+    color: #f4f4f4;
+}
+
+header.dark-mode a {
+    color: #f4f4f4;
+}
+
+/* Header Style */
+header {
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* Main Section Style */
+main {
+    padding: 2rem;
+}
+
+section#posts-section {
+    margin-bottom: 2rem;
+}
+
+.forum-post {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    background: #fff;
+    position: relative;
+}
+
+.forum-post h3 {
+    margin-top: 0;
+}
+
+.forum-post .date-time {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.forum-post .comments-icon {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    width: 24px;
+    height: 24px;
+    background: url('com.png') no-repeat center center;
+    background-size: contain;
+}
+
+/* Search Bar Style */
+#search-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#search-bar {
+    padding: 0.5rem;
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Footer Style */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
